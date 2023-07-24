@@ -1,5 +1,6 @@
-import styles from './ImageGalleryItem.module.css';
+import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './ImageGalleryItem.module.css';
 
 export const ImageGalleryItem = ({ src, alt, largeImageURL, openModal }) => {
   return (
@@ -15,3 +16,5 @@ ImageGalleryItem.propTypes = {
   largeImageURL: PropTypes.string,
   openModal: PropTypes.func,
 };
+
+

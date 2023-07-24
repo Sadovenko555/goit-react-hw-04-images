@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './Button.module.css';
 import PropTypes from 'prop-types';
 
@@ -14,3 +15,5 @@ export const Button = ({ onloadMore }) => {
 Button.propTypes = {
   onloadMore: PropTypes.func,
 };
+
+
